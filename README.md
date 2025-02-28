@@ -1,7 +1,9 @@
 # List of Content
 
 - Shell scripts that focus on automating context restorization within Ollama.
+- Example C program using the shell scripts created to interact with Ollama.
 - Data handling logic.
+  
 
 ## Script descriptions
 
