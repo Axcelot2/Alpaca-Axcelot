@@ -1,4 +1,4 @@
-# Alpaca-Shellscripts
+# Includes several shell scripts we are going to implement in our program
 
 - This project aims to retain and restore context between conversations with LLM's. 
 
@@ -6,11 +6,12 @@
 
 - Still a rough proof of concept (and will be used as a collaborative college project)
 
-## Script choice
+## Script descriptions
 
-Options were limited to basic Shell scripting or Python scripting in order to achieve any level of automation within the Ollama terminal. 
+- save_conversation: Basic shell script that will save the entire conversation into a .txt file
+- import_to_ollama: Will look for the .txt file created using (save_conversation) and import it into Ollama
 
 ### Sidenotes
 
-We are aware that there are more efficient ways to execute this project but as per our course limitations, we will be aiming to complete everything on C. 
+
 
