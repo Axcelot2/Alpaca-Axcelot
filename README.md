@@ -1,10 +1,7 @@
-# Includes several shell scripts we are going to implement in our program
+# This File includes
 
-- This project aims to retain and restore context between conversations with LLM's. 
-
-- The choice of interface to run the LLM's is Ollama.
-
-- Still a rough proof of concept (and will be used as a collaborative college project)
+- Shell scripts that focus on automating context restorization within Ollama.
+- Data handling logic.
 
 ## Script descriptions
 
@@ -13,5 +10,9 @@
 
 ### Sidenotes
 
+- This project aims to retain and restore context between conversations with LLM's. 
 
+- The choice of interface to run the LLM's is Ollama.
+
+- Still a rough proof of concept (and will be used as a collaborative college project)
 
