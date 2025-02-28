@@ -1,4 +1,4 @@
-# Contents
+# Table of Contents 
 
 - Shell scripts that focus on automating context restorization within Ollama.
 - Data handling logic.
