@@ -16,5 +16,5 @@
 
 - The choice of interface to run the LLM's is Ollama.
 
-- Still a rough proof of concept (and will be used as a collaborative college project)
+- Still a rough proof of concept (will be used as a collaborative college project)
 
