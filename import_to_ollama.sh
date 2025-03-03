@@ -12,7 +12,7 @@ fi
 echo "Importing conversation from '$CONTEXT_FILE'..."
 
 # Send the file contents to Ollama and capture the response
-response=$(cat "$CONTEXT_FILE" | ollama run "deepseek-r1:32b")
+response=$(cat "$CONTEXT_FILE" | ollama run "deepseek-r1:32b") # This script only supports deepseek r1:32b --> More models could be added in the future.
 
 # Display Ollama's response
 echo "Ollama's response:"
