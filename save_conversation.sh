@@ -18,7 +18,7 @@ while true; do
     fi
 
     # Send input to Ollama and capture response
-    ollama_response=$(echo "$user_input" | ollama run "deepseek-r1:32b")
+    ollama_response=$(echo "$user_input" | ollama run "deepseek-r1:32b") # This script only supports deepseek r1:32b --> More models could be added in the future.
 
     # Save conversation history to file
     echo "You: $user_input" >> "$LOG_FILE"
